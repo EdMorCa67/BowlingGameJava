@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 400 320">
+  <style>
+    .class-box { fill: #ffffff; stroke: #333; stroke-width: 2; }
+    .title { font: bold 18px Arial, sans-serif; }
+    .text { font: 14px Arial, sans-serif; }
+    .line { stroke: #333; stroke-width: 2; }
+  </style>
+
+  <rect class="class-box" x="40" y="40" width="320" height="260" rx="8" ry="8" />
+  <text class="title" x="58" y="72">ScoreCard</text>
+  <line x1="40" y1="90" x2="360" y2="90" class="line" />
+  <text class="text" x="58" y="112">- rolls: List&lt;Integer&gt;</text>
+  <text class="text" x="58" y="134">+ ScoreCard(scoreCard: String)</text>
+  <text class="text" x="58" y="156">+ getRolls(): List&lt;Integer&gt;</text>
+  <text class="text" x="58" y="178">+ score(): int</text>
+  <text class="text" x="58" y="200">- parseRolls(scoreCard: String): void</text>
+  <text class="text" x="58" y="222">- isStrike(rollIndex: int): boolean</text>
+  <text class="text" x="58" y="244">- isSpare(rollIndex: int): boolean</text>
+  <text class="text" x="58" y="266">- strikeBonus(rollIndex: int): int</text>
+  <text class="text" x="58" y="288">- spareBonus(rollIndex: int): int</text>
+</svg>
