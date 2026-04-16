@@ -1,5 +1,7 @@
 # Bowling Game Java
 
+⚠️ **Créditos**: Este proyecto fue realizado por Jorge también. Todo se hizo en un PC. ⚠️
+
 Esta es una versión en Java del Bowling Kata.
 
 ## Descripción
