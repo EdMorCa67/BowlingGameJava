@@ -1,0 +1,41 @@
+# Maven build output
+/target/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Java classes and archives
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse files
+.settings/
+.classpath
+.project
+
+# Maven wrapper jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Generated test reports
+/surefire-reports/
+
+# Gradle
+.gradle/
+build/
